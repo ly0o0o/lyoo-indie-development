@@ -11,7 +11,7 @@ Cloudflare (DNS + CDN + WAF)
 │
 ┌────────┴────────┐
 Frontend           Backend
-(任意框架)          (Fastify API)
+(任意框架)          (任意框架)
 Vercel/Railway     Railway
 │
 ┌─────────┼──────────┐
@@ -54,8 +54,8 @@ git push → GitHub Actions → 构建 → 自动部署
 | DNS / CDN / WAF | Cloudflare | 免费计划够用 |
 | 国内加速 | 腾讯云 EdgeOne / 阿里云 CDN | 反向代理海外后端 |
 | Frontend | 任意框架 | 部署到 Vercel / Railway |
-| Backend | Fastify | 部署到 Railway |
-| 数据库 | PostgreSQL | Railway 托管 |
+| Backend | 任意框架 | 部署到 Railway，框架不限 |
+| 数据库 | PostgreSQL / MongoDB | Railway 托管 |
 | 缓存 | Redis | Upstash / Railway |
 | 对象存储 | Cloudflare R2 | 免费 10GB，无出口费 |
 | BaaS 备选 | Supabase | Auth / DB / Storage 一体 |
