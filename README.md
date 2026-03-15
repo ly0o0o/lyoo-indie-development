@@ -134,6 +134,6 @@ git push → GitHub Actions → 构建 → 自动部署
 | 工具 | 用途 |
 |------|------|
 | [Supabase MCP](https://supabase.com) | 数据库 / Auth / Storage |
-| [Strapi MCP](https://strapi.io) | Headless CMS |
+| [Stripe MCP](https://stripe.com) | 支付处理 |
 | [Postman MCP](https://www.postman.com) | API 测试与管理 |
 | [Railway CLI](https://docs.railway.app/develop/cli) | 后端部署与管理 |
